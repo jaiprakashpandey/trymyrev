@@ -4,7 +4,8 @@ public class MainClient {
 
     public static void main(String args[]) {
         ReverseUtility rv = new ReverseUtility();
-        rv.myReverseString("TEST_Jai");
+        String result =  rv.myReverseString(args[0]);
+        System.out.println("Reverse of " + args[0] + "is " + result);
 
     }
 }
